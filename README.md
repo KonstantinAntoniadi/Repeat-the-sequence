@@ -22,3 +22,6 @@ Free play mode allows you to open the game screen, but the sequences are not pla
 ## About
 "About" button opens a new screen, where the game conditions and information about the author are written. In the upper left corner there is a back arrow (to exit the menu)  
 ![About](img/About.png)
+
+## Release
+In release folder you can find release apk file for test it in your android device.
