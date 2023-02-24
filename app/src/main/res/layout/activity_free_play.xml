@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="399dp"
+        android:layout_height="510dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonCat"
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:background="#000000"
+                android:onClick="onClickCat"
+                android:text="1"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#000000" />
+
+            <Button
+                android:id="@+id/buttonDrum"
+                android:layout_width="197dp"
+                android:layout_height="250dp"
+                android:background="#FE0000"
+                android:onClick="onDrumClick"
+                android:text="2"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonClick"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                android:background="#07FE00"
+                android:onClick="onClickClick"
+                android:text="3"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/buttonPiano"
+                android:layout_width="197dp"
+                android:layout_height="250dp"
+                android:background="#0100FE"
+                android:onClick="onPianoClick"
+                android:text="4"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonBackFromFreePlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="backToMenu"
+        android:text="menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
